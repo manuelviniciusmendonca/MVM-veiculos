@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Toyota Corolla XEi | MVM Veículos</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.carro-detalhes{
+max-width:1200px;
+margin:120px auto;
+padding:0 20px;
+}
+
+.carro-grid{
+display:grid;
+grid-template-columns:1.1fr 1fr;
+gap:50px;
+align-items:start;
+}
+
+.carro-imagem img{
+width:100%;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.carro-info h1{
+font-size:48px;
+margin-bottom:10px;
+color:#111;
+}
+
+.preco{
+font-size:42px;
+font-weight:700;
+color:#e30613;
+margin-bottom:25px;
+}
+
+.btn-whatsapp{
+display:inline-block;
+padding:16px 35px;
+background:#e30613;
+color:white;
+text-decoration:none;
+font-weight:600;
+border-radius:12px;
+transition:.3s;
+}
+
+.btn-whatsapp:hover{
+transform:translateY(-3px);
+}
+
+.ficha,
+.opcionais,
+.descricao{
+margin-top:35px;
+background:#f8f8f8;
+padding:25px;
+border-radius:15px;
+}
+
+.ficha h3,
+.opcionais h3,
+.descricao h3{
+margin-bottom:15px;
+}
+
+.ficha ul,
+.opcionais ul{
+list-style:none;
+}
+
+.ficha li,
+.opcionais li{
+padding:10px 0;
+border-bottom:1px solid #ddd;
+}
+
+@media(max-width:900px){
+
+.carro-grid{
+grid-template-columns:1fr;
+}
+
+.carro-info h1{
+font-size:36px;
+}
+
+.preco{
+font-size:34px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<span>MVM</span> VEÍCULOS
+</div>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="index.html#catalogo">Catálogo</a>
+</nav>
+</header>
+
+<section class="carro-detalhes">
+
+<div class="carro-grid">
+
+<div class="carro-imagem">
+<img src="imagens/carro2.jpg" alt="Toyota Corolla XEi">
+</div>
+
+<div class="carro-info">
+
+<h1>Toyota Corolla XEi</h1>
+
+<div class="preco">
+R$ 164.900
+</div>
+
+<a href="https://wa.me/5579999999999" class="btn-whatsapp">
+Tenho Interesse
+</a>
+
+<div class="ficha">
+
+<h3>Ficha Técnica</h3>
+
+<ul>
+<li>Ano: 2024</li>
+<li>Quilometragem: 4.500 km</li>
+<li>Câmbio: Automático CVT</li>
+<li>Combustível: Flex</li>
+<li>Cor: Branco Pérola</li>
+<li>Potência: 177cv</li>
+</ul>
+
+</div>
+
+<div class="opcionais">
+
+<h3>Opcionais</h3>
+
+<ul>
+<li>✓ Central Multimídia Touchscreen</li>
+<li>✓ Ar-Condicionado Digital</li>
+<li>✓ Chave Presencial</li>
+<li>✓ Câmera de Ré</li>
+<li>✓ Sensor de Estacionamento</li>
+<li>✓ Controle de Cruzeiro</li>
+<li>✓ Faróis Full LED</li>
+</ul>
+
+</div>
+
+<div class="descricao">
+
+<h3>Descrição</h3>
+
+<p>
+Toyota Corolla XEi em excelente estado de conservação,
+com baixa quilometragem e todas as revisões em dia.
+Um dos sedãs mais confiáveis do mercado, oferecendo
+conforto, economia e tecnologia para o dia a dia e viagens.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>MVM VEÍCULOS</h3>
+
+<p>Veículos selecionados com qualidade e procedência.</p>
+
+</footer>
+
+</body>
+
+</html>
